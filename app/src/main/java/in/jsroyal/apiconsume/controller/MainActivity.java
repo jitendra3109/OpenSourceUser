@@ -49,10 +49,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private void initViews(){
         pd = new ProgressDialog(this);
-        pd.setMessage("Fetching Users Data...");
+        pd.setMessage("Fetching Users Data Please wait...");
         pd.setCancelable(false);
         pd.show();
         recyclerView=(RecyclerView) findViewById(R.id.recyclerView);

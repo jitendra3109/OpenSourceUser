@@ -45,7 +45,7 @@ public class DetailActivity extends AppCompatActivity {
                 .placeholder(R.drawable.load)
                 .into(imageView);
 
-        getSupportActionBar().setTitle("Details Activity");
+        getSupportActionBar().setTitle("User Details ");
     }
 
     private Intent createShareForcastIntent(){

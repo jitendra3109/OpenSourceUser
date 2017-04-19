@@ -36,7 +36,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ItemAdapter.ViewHolder viewHolder, int i) {
         viewHolder.title.setText(items.get(i).getLogin());
-        viewHolder.githublink1.setText(items.get(i).getHtmlUrl());
+        viewHolder.githublink.setText(items.get(i).getHtmlUrl());
 
         Picasso.with(context)
                 .load(items.get(i).getAvatarUrl())
@@ -50,14 +50,14 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView title, githublink1;
+        private TextView title, githublink;
         private ImageView imageView;
 
 
         public ViewHolder(View view) {
             super(view);
             title = (TextView) view.findViewById(R.id.title);
-            githublink1 = (TextView) view.findViewById(R.id.githublink1);
+            githublink = (TextView) view.findViewById(R.id.githublink1);
             imageView = (ImageView) view.findViewById(R.id.cover);
 
             //on item click
