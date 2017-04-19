@@ -1,94 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
-        android:contentDescription="@string/user_image"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:id="@+id/user_image_header"
         android:fitsSystemWindows="true"
-        android:scaleType="fitXY"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/header"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintVertical_bias="1.0" />
-
+        android:scaleType="fitXY"/>
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/header"
-        android:text="Username"
+        android:layout_marginLeft="10dp"
+        android:text="@string/user_name"
         android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textSize="25dp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/username"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp" />
-
+        android:layout_below="@+id/user_image_header"/>
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
         android:textSize="20dp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/githublink"
-        app:layout_constraintRight_toRightOf="@+id/header"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintLeft_toLeftOf="@+id/header" />
-
+        android:layout_below="@+id/header"/>
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/githublink"
+        android:layout_marginLeft="10dp"
         android:text="@string/github_profile_link"
         android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textSize="25dp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/link"
-        app:layout_constraintRight_toRightOf="@+id/username"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="40dp"
-        app:layout_constraintLeft_toLeftOf="@+id/username"
-        app:layout_constraintHorizontal_bias="1.0" />
-
+        android:layout_below="@+id/username"/>
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/link"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
         android:textSize="20dp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/githublink"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintLeft_toLeftOf="@+id/githublink"
-        app:layout_constraintHorizontal_bias="0.0" />
+        android:layout_below="@+id/githublink"/>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
