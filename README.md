@@ -1,2 +1,4 @@
 # OpenSourceUser
-Using GitHub API show the user details with the help of Retrofit Networing Lib.   
+
+Consuming GitHub API Retrofit networing Library.
+In this app retrive the data from with the filter of Location and Language. 
