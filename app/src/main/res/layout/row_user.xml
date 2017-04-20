@@ -8,19 +8,20 @@
     android:clickable="true"
     android:focusable="true"
     android:elevation="60dp"
-    android:foreground="?android:attr/selectableItemBackground"
-    >
+    android:foreground="?android:attr/selectableItemBackground">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
+
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/cover"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/img"
             android:scaleType="fitXY"/>
         <TextView
             android:layout_width="wrap_content"
@@ -41,7 +42,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/title"
-            android:visibility="visible"
+            android:visibility="invisible"
             android:textAppearance="?android:textAppearanceLarge"
             android:textStyle="bold"/>
     </RelativeLayout>

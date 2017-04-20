@@ -5,11 +5,12 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:id="@+id/user_image_header"
         android:fitsSystemWindows="true"
         android:scaleType="fitXY"/>
     <TextView
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/header"
@@ -21,6 +22,7 @@
         android:textSize="25dp"
         android:layout_below="@+id/user_image_header"/>
     <TextView
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/username"
@@ -29,6 +31,7 @@
         android:textSize="20dp"
         android:layout_below="@+id/header"/>
     <TextView
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/githublink"
@@ -40,6 +43,7 @@
         android:textSize="25dp"
         android:layout_below="@+id/username"/>
     <TextView
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/link"

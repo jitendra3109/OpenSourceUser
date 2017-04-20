@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/gson-2.7_f4e8672e8cf518b564847a3e1a2e7d6e5514a8a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -21,147 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_ed9a2ad5baf2a206aaff93c17231c3aa057825c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_c0bc043728791888284410f49778b19d5cc487fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/android-sdk-linux/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_97efbcea30d4453fd968d6299b73a7940791ff92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_fd848b7ff0f6a31dfe5ed9c52d1c306b2c239728.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_7ae75caf2aa3e76017f3b49c0f4716292b24620c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_7f2aa847b73d2b1ce6cc3e703a3899acf54c0115.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_0932cf796eb5230bc49e42c7b58b6f52f05ffadd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_ddf1885acc5651f0987e8f578e6b344c19437772.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_f225d8d98cea7b5915663ec4b8edb2ba11da0efe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_e5d145ca6796de7fb33614972bd64eb48efc1606.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_7a0038b28cecec79dab0f547917e9e1e48ccb702.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_5f29ea051bdc60dd835595531182cb089eeceaf0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/gson-2.7_f4e8672e8cf518b564847a3e1a2e7d6e5514a8a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_9c22620288b9f4b23a73e5be1dd3e0a33d0a4c8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
         <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_ce4eb3b1378af01cfaf3513407e9433473f3e90a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_0ee35ffcc943b38070f72aeb1a82dc095c99a327.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +57,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_f613b771777e2d0ce88a73cda3c88aab25ce86a6.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_ed9a2ad5baf2a206aaff93c17231c3aa057825c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_c0bc043728791888284410f49778b19d5cc487fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/android-sdk-linux/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_97efbcea30d4453fd968d6299b73a7940791ff92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_7ae75caf2aa3e76017f3b49c0f4716292b24620c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_7f2aa847b73d2b1ce6cc3e703a3899acf54c0115.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,30 +111,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_fbb3c7161b714d6142320d530ae537223cc8fc5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_aea458de06f201fe00f9181ea0f2a2a3cf3b6549.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/glide-3.7.0_536fa82732983b353a9dcb0799abef2c92c50195.jar" />
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/glide-3.7.0_536fa82732983b353a9dcb0799abef2c92c50195.jar" />
     </item>
     <item
         is-multidex="false"
@@ -233,7 +125,16 @@
         optimize="true"
         revision="25.0.2"
         sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/picasso-2.4.0_3ec83feb0702feefd0a126e9cf4cecaa314e49d7.jar" />
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/picasso-2.4.0_3ec83feb0702feefd0a126e9cf4cecaa314e49d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_0932cf796eb5230bc49e42c7b58b6f52f05ffadd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -264,21 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_f0b513faad5631daaf2d78adf9e5feb59a0e8204.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/jsroyal/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_024a6288cb0e80b59deaf634f0da3d17f71ca7d4.jar" />
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_024a6288cb0e80b59deaf634f0da3d17f71ca7d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -296,34 +188,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/okio-1.8.0_9cecf725847be7f4d21f1f716db509189b4f6e56.jar" />
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/okio-1.8.0_9cecf725847be7f4d21f1f716db509189b4f6e56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_800727e790b57359f790df2133292324eb80feb9.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_e5d145ca6796de7fb33614972bd64eb48efc1606.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_a2de3668c3923a2b594f6af89a7a7c1d877f51e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/home/jsroyal/WhitePanda/APIConsume/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_0811d43d95e32bff5cb9cd3feb26822780147f80.jar" />
+        <dex dex="/home/jsroyal/Github/OpenSourceUser/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_7a0038b28cecec79dab0f547917e9e1e48ccb702.jar" />
     </item>
 
 </items>

@@ -27,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+
         imageView = (ImageView) findViewById(R.id.user_image_header);
         Username = (TextView) findViewById(R.id.username);
 
@@ -49,11 +50,10 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private Intent createShareForcastIntent(){
-        String username = getIntent().getExtras().getString("login");
-        String link = getIntent().getExtras().getString("link");
+        String link = getIntent().getExtras().getString("html_url");
         Intent shareIntent = ShareCompat.IntentBuilder.from(this)
                 .setType("text/plain")
-                .setText("Check out this awesome developer @" + username + ", " + link)
+                .setText("Check out this awesome developer " + link)
                 .getIntent();
         return shareIntent;
     }
@@ -64,6 +64,12 @@ public class DetailActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu , menu);
         MenuItem menuItem = menu.findItem(R.id.action_share);
         menuItem.setIntent(createShareForcastIntent());
+        return true;
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
         return true;
     }
 }

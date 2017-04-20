@@ -30,11 +30,19 @@ public class MainActivity extends AppCompatActivity {
     private Item item;
     ProgressDialog pd;
     private SwipeRefreshLayout swipeContainer;
+    public String location,language;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Bundle extras = getIntent().getExtras();
+//        location = extras.getString("location");
+//        language = extras.getString("language");
+//        Log.d("location",location );
+//        Log.d("lan",location );
+
 
         initViews();
 
@@ -58,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.smoothScrollToPosition(0);
         loadJSON();
+        Log.d("Error", "Call load json");
     }
 
     private void loadJSON(){
@@ -70,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             call.enqueue(new Callback<ItemResponse>() {
                 @Override
                 public void onResponse(Call<ItemResponse> call, Response<ItemResponse> response) {
+                    Log.d("Respnse",""+""+response.body());
                     List<Item> items = response.body().getItems();
                     recyclerView.setAdapter(new ItemAdapter(getApplicationContext(), items));
                     recyclerView.smoothScrollToPosition(0);
@@ -80,16 +90,15 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onFailure(Call<ItemResponse> call, Throwable t) {
                     Log.d("Error", t.getMessage());
-                    Toast.makeText(MainActivity.this, "Error Fetching Data!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Error Fetching Data!", Toast.LENGTH_LONG).show();
                     Disconnected.setVisibility(View.VISIBLE);
                     pd.hide();
-
                 }
             });
 
         }catch (Exception e){
-            Log.d("Error", e.getMessage());
-            Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+            Log.d("Error exception", e.getMessage());
+            Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
         }
     }
 }

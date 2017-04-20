@@ -8,6 +8,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Item {
 
+
     @SerializedName("login")
     @Expose
     private String login;
@@ -18,11 +19,13 @@ public class Item {
     @Expose
     private String htmlUrl;
 
+
     public Item(String login, String avatarUrl, String htmlUrl){
         this.login = login;
         this.avatarUrl = avatarUrl;
         this.htmlUrl = htmlUrl;
     }
+
 
     public String getLogin(){
         return login;
