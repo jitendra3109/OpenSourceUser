@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 
 public interface Service {
-    @GET("/search/users?q=location:india+language:java")
+    @GET("/search/users?q=location:india")
     Call<ItemResponse> getItems(
 //            @Query("location") String location,
 //            @Query("language") String language

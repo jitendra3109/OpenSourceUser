@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GitHub users of India </string>
+    <string name="app_name">Open Source Dev </string>
     <string name="internet">No internet connection, Please make sure your device is connected to the internet</string>
     <string name="user_image">User Image</string>
     <string name="github_profile_link">Github Profile Link</string>
