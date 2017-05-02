@@ -10,38 +10,28 @@
         android:fitsSystemWindows="true"
         android:scaleType="fitXY"/>
     <TextView
-        android:gravity="center"
+        android:layout_gravity="start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/header"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         android:text="@string/user_name"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:layout_below="@+id/user_image_header"/>
     <TextView
-        android:gravity="center"
-        android:layout_width="match_parent"
+        android:layout_alignEnd="@+id/header"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/username"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:textSize="20dp"
-        android:layout_below="@+id/header"/>
-    <TextView
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/githublink"
-        android:layout_marginLeft="10dp"
-        android:text="@string/github_profile_link"
-        android:textAlignment="center"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:textSize="25dp"
-        android:layout_below="@+id/username"/>
+        android:textSize="20dp"
+        android:layout_below="@+id/user_image_header"
+        android:layout_alignRight="@+id/header"/>
     <TextView
         android:gravity="center"
         android:layout_width="match_parent"
@@ -50,6 +40,39 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="3dp"
         android:textSize="20dp"
-        android:layout_below="@+id/githublink"/>
+        android:layout_below="@+id/username"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/followers"
+        android:layout_below="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followers"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/repos"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/link"
+        android:layout_alignRight="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Repos"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/github_followers"
+        android:layout_below="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/github_repos"
+        android:layout_below="@+id/repos"
+        android:layout_alignRight="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
 </RelativeLayout>

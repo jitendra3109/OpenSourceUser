@@ -2,6 +2,11 @@
     <string name="app_name">Open Source Dev </string>
     <string name="internet">No internet connection, Please make sure your device is connected to the internet</string>
     <string name="user_image">User Image</string>
-    <string name="github_profile_link">Github Profile Link</string>
-    <string name="user_name">User Name</string>
+    <string name="github_profile_link">Github Profile Link : </string>
+    <string name="user_name">User Name : </string>
+    <string name="followers">Followers </string>
+    <string name="Repos">Repos</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_language">Enter Language</string>
 </resources>
+

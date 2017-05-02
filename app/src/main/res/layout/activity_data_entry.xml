@@ -13,35 +13,53 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         >
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:id="@+id/location"
-        android:hint="Enter Location" />
 
-    <EditText
+      <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:ems="10"
+        android:ems="8"
         android:layout_below="@+id/location"
         android:layout_alignRight="@+id/location"
         android:layout_alignEnd="@+id/location"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="16dp"
         android:id="@+id/language"
-        android:hint="Enter Language" />
+        android:hint="e.g. Java" />
 
     <Button
         android:layout_below="@+id/language"
         android:text="Submit"
+        android:layout_marginTop="10dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:id="@+id/submit" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/enter_location"
+          android:layout_alignParentTop="true"
+          android:layout_alignLeft="@+id/location"
+          android:layout_alignStart="@+id/location"
+          android:id="@+id/textView"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/enter_language"
+          android:layout_below="@+id/location"
+          android:layout_alignRight="@+id/textView"
+          android:layout_alignEnd="@+id/textView"
+          android:id="@+id/textView2"
+          />
+      <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8" android:id="@+id/location"
+        android:hint="e.g. India"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+          />
     </RelativeLayout>
 </ScrollView>

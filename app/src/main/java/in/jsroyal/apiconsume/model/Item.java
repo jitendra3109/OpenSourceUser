@@ -18,12 +18,20 @@ public class Item {
     @SerializedName("html_url")
     @Expose
     private String htmlUrl;
+    @SerializedName("followers_url")
+    @Expose
+    private String followersUrl;
+    @SerializedName("repos_url")
+    @Expose
+    private String reposUrl;
 
 
-    public Item(String login, String avatarUrl, String htmlUrl){
+    public Item(String login, String avatarUrl, String htmlUrl, String followersUrl, String reposUrl){
         this.login = login;
         this.avatarUrl = avatarUrl;
         this.htmlUrl = htmlUrl;
+        this.followersUrl = followersUrl;
+        this.reposUrl = reposUrl;
     }
 
 
@@ -50,4 +58,12 @@ public class Item {
     public void setHtmlUrl(String htmlUrl){
         this.htmlUrl = htmlUrl;
     }
+
+    public String getFollowers(){
+      return followersUrl;
+    }
+    public String getRepos(){
+      return reposUrl;
+    }
+
 }

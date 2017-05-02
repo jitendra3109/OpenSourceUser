@@ -23,9 +23,6 @@ public class DataEntry extends AppCompatActivity {
         location = (EditText) findViewById(R.id.location);
         language = (EditText) findViewById(R.id.language);
         submit = (Button) findViewById(R.id.submit);
-        recyclerView=(RecyclerView) findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        recyclerView.smoothScrollToPosition(0);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

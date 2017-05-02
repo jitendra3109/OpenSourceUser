@@ -37,6 +37,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     public void onBindViewHolder(ItemAdapter.ViewHolder viewHolder, int i) {
         viewHolder.title.setText(items.get(i).getLogin());
         viewHolder.githublink.setText(items.get(i).getHtmlUrl());
+        //viewHolder.followers.setText(items.get(i).getFollowers().length());
+        //viewHolder.repos.setText(items.get(i).getRepos().length());
 
         Picasso.with(context)
                 .load(items.get(i).getAvatarUrl())
@@ -50,7 +52,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView title, githublink;
+        private TextView title, githublink,followers,repos;
         private ImageView imageView;
 
 
@@ -59,6 +61,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
             title = (TextView) view.findViewById(R.id.title);
             githublink = (TextView) view.findViewById(R.id.githublink1);
             imageView = (ImageView) view.findViewById(R.id.cover);
+            followers = (TextView) view.findViewById(R.id.github_followers);
+            repos = (TextView) view.findViewById(R.id.github_repos);
 
             //on item click
             itemView.setOnClickListener(new View.OnClickListener() {
@@ -71,6 +75,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
                         intent.putExtra("login", items.get(pos).getLogin());
                         intent.putExtra("html_url", items.get(pos).getHtmlUrl());
                         intent.putExtra("avatar_url", items.get(pos).getAvatarUrl());
+                        intent.putExtra("followers_url", items.get(pos).getFollowers().length());
+                        intent.putExtra("repos_url", items.get(pos).getRepos().length());
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivity(intent);
                         //Toast.makeText(v.getContext(), "You clicked " + clickedDataItem.getLogin(), Toast.LENGTH_SHORT).show();

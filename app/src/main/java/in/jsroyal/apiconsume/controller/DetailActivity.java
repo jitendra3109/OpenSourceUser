@@ -31,15 +31,23 @@ public class DetailActivity extends AppCompatActivity {
         imageView = (ImageView) findViewById(R.id.user_image_header);
         Username = (TextView) findViewById(R.id.username);
         Link = (TextView) findViewById(R.id.link);
+        Follower = (TextView) findViewById(R.id.github_followers);
+        Repos = (TextView) findViewById(R.id.github_repos);
 
         String username = getIntent().getExtras().getString("login");
         String avatarUrl = getIntent().getExtras().getString("avatar_url");
         String link = getIntent().getExtras().getString("html_url");
+        String  follower = getIntent().getExtras().getString("follower");
+        String repos = getIntent().getExtras().getString("repos");
+
 
         Link.setText(link);
         Linkify.addLinks(Link, Linkify.WEB_URLS);
 
         Username.setText(username);
+        Follower.setText(follower);
+        Repos.setText(repos);
+
         Glide.with(this)
                 .load(avatarUrl)
                 .placeholder(R.drawable.load)
@@ -52,7 +60,7 @@ public class DetailActivity extends AppCompatActivity {
         String link = getIntent().getExtras().getString("html_url");
         Intent shareIntent = ShareCompat.IntentBuilder.from(this)
                 .setType("text/plain")
-                .setText("Check out this awesome developer " + link)
+                .setText("Review this Open Source Developer " + link)
                 .getIntent();
         return shareIntent;
     }
