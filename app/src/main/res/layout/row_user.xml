@@ -15,11 +15,9 @@
         android:layout_height="match_parent">
 
         <ImageView
-
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/cover"
-
             android:background="@drawable/img"
             android:scaleType="fitXY"/>
         <TextView

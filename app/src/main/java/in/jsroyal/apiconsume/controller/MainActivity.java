@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Bundle extras = getIntent().getExtras();
-//        location = extras.getString("location");
-//        language = extras.getString("language");
-//        Log.d("location",location );
-//        Log.d("lan",location );
+        location = extras.getString("location");
+        language = extras.getString("language");
+        Log.d("location",location );
+        Log.d("lan",location );
 
 
         initViews();
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onRefresh(){
                 loadJSON();
-                Toast.makeText(MainActivity.this, "Github Users Refreshed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Wait refresh", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -75,18 +75,17 @@ public class MainActivity extends AppCompatActivity {
             Client Client = new Client();
             Service apiService =
                     Client.getClient().create(Service.class);
-            Call<ItemResponse> call = apiService.getItems();
+            Call<ItemResponse> call = apiService.getItems(location,language);
             call.enqueue(new Callback<ItemResponse>() {
                 @Override
                 public void onResponse(Call<ItemResponse> call, Response<ItemResponse> response) {
-                    Log.d("Respnse",""+""+response.body());
+                    Log.d("Response",""+""+response.body());
                     List<Item> items = response.body().getItems();
                     recyclerView.setAdapter(new ItemAdapter(getApplicationContext(), items));
                     recyclerView.smoothScrollToPosition(0);
                     swipeContainer.setRefreshing(false);
                     pd.hide();
                 }
-
                 @Override
                 public void onFailure(Call<ItemResponse> call, Throwable t) {
                     Log.d("Error", t.getMessage());

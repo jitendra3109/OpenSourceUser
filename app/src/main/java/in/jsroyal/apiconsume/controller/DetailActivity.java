@@ -17,7 +17,7 @@ import in.jsroyal.apiconsume.R;
 
 
 public class DetailActivity extends AppCompatActivity {
-    TextView Link, Username;
+    TextView Link, Username,Follower,Repos;
     Toolbar mActionBarToolbar;
     ImageView imageView;
 
@@ -30,7 +30,6 @@ public class DetailActivity extends AppCompatActivity {
 
         imageView = (ImageView) findViewById(R.id.user_image_header);
         Username = (TextView) findViewById(R.id.username);
-
         Link = (TextView) findViewById(R.id.link);
 
         String username = getIntent().getExtras().getString("login");
