@@ -5,7 +5,7 @@
 
 ## Preview of App.
 
-Here the direct link of apk to download  [Click here](https://github.com/jsroyal/OpenSourceUser/releases/download/v1.0/app-debug.apk)
+Here the direct link of apk to download  [Click here](https://github.com/jsroyal/OpenSourceUser/releases/download/v1.1/app-debug.apk)
 
 | ![](img/1.png) | ![](img/2.png) |
 |----------------|----------------|
