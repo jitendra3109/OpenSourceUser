@@ -1,7 +1,6 @@
-## Consuming GitHub API Retrofit networing Library.
+## Consuming GitHub API Retrofit networking Library.
 
  In this app retrive the user data like GitHub url, Avatar, user name with the filter of Location and Language. 
-
 
 ## Preview of App.
 
